@@ -39,14 +39,14 @@ function movePaddles() {
                 paddle_1_coord.top + paddleSpeed
             ) + 'px';
     }
-    if (keysPressed['ArrowUp']) {
+    if (keysPressed['i']) {
         paddle_2.style.top =
             Math.max(
                 board_coord.top,
                 paddle_2_coord.top - paddleSpeed
             ) + 'px';
     }
-    if (keysPressed['ArrowDown']) {
+    if (keysPressed['k']) {
         paddle_2.style.top =
             Math.min(
                 board_coord.bottom - paddle_common.height,

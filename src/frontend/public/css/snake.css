@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+	text-align: center;
+    background-color: green;
+    color: #2a2a2a;
+}
+.geeks {
+	font-size: 40px;
+	font-weight: bold;
+	color: green;
+}
+.navbar{
+    background-color: #f86922;
+    text-align: center;
+    color: #fff;
+}
+.nav-link{
+    color: #fff;
+    text-align: center;
+}
+.custom-swal-text {
+    color: #0f0 !important;
+    font-family: 'Exo 2', sans-serif;
+}
+#board{
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+}

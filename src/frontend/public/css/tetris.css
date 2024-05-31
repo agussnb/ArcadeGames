@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    overflow: hidden;
+    font-family: 'Exo 2', sans-serif;
+   background-image: url('../images/tetris-bg.png');
+   background-repeat: no-repeat;
+   background-size: auto;
+    /* background-color: #686767; */
+  }
+  .navbar{
+    background-color: #f86922;
+    text-align: center;
+    color: #fff;
+}
+.nav-link{
+    color: #fff;
+    text-align: center;
+}
+  #tetris {
+    width: 420px;
+    border: 1px solid black;
+    border-radius: 0,6rem;
+    padding: 20px;
+    position: fixed;
+    bottom: 20%;
+    right: 40%;
+    background-image: linear-gradient( 
+        to top, #1f1e1e, #686767); 
+  }
+  #canvas {
+    width: 200px;
+    height: 440px;
+    background-color: #000;
+    position: relative;
+    color: #fff;
+  }
+  #canvas h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 30px;
+    padding-top: 200px;
+  }
+  .piece {
+    border: 1px solid white;
+    border-radius: 0,6rem;
+    position: absolute;
+  }
+  
+  #start{
+    animation: blink .7s steps(2, start) infinite;
+    background: #E1FF5F;
+    border-radius: 2px;
+    border-radius: 0,6rem;
+    color: #202020;
+    cursor: pointer;
+    font-size: 28px;
+  }
+  
+  @keyframes blink {
+    to {
+      outline: #E1FF5F solid 1px;
+    }
+  }
+  
+  .red{
+    color: #f00000;
+  }
+  
+  .square {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    border: 1px solid white;
+    
+  }
+  .type0 {
+    background-color: #a000f0;
+  }
+  .type1 {
+    background-color: #00f0f0;
+  }
+  .type2 {
+    background-color: #f0a000;
+  }
+  .type3 {
+    background-color: #0000f0;
+  }
+  .type4 {
+    background-color: #00f000;
+  }
+  .type5 {
+    background-color: #f00000;
+  }
+  .type6 {
+    background-color: #f0f000;
+  }
+  #next_shape {
+    position: relative;
+    background-color: #000;
+    border: 1px solid white;
+    width: 130px;
+    height: 110px;
+  }
+  #info {
+    background-color: #000;
+    color: #11f032;
+    font-family: 'Exo 2','sans-serif';
+    float: right;
+    width: 150px;
+    height: 420px;
+    padding: 10px;
+  }
